@@ -16,3 +16,30 @@ function setTextElementValueById(elementId, newValue) {
     const element = document.getElementById(elementId);
     element.innerText = newValue;
 }
+
+// validation function
+/* function validationCheck(elementId) {
+    const element = document.getElementById(elementId);
+    const elementValue = element.value;
+
+    if (isNaN(elementValue)) {
+        alert('Please input a number');
+        return;
+    } else if (elementValue < 0) {
+        alert('Please input a positive number');
+        return;
+    } else if (elementValue === '') {
+        alert('You must have to provide a number');
+        return;
+    }
+} */
+
+/* function isError(elementId) {
+    const element = document.getElementById(elementId);
+    const elementValue = element.value;
+
+    if (elementValue < 0) {
+        alert('error!!!');
+        return;
+    }
+} */
